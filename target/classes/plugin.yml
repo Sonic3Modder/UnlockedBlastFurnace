@@ -1,0 +1,19 @@
+name: CustomBlastFurnace
+version: 1.0.1
+main: io.github.sonic3modder.customblastfurnace.CustomBlastFurnace
+api-version: '1.20'
+author: Sonic3Modder
+description: Customize what items can be smelted in blast furnaces
+folia-supported: true
+
+commands:
+  customblastfurnace:
+    description: Reload the plugin configuration
+    usage: /customblastfurnace reload
+    aliases: [cbf, blastfurnace]
+    permission: customblastfurnace.reload
+
+permissions:
+  customblastfurnace.reload:
+    description: Allows reloading the plugin configuration
+    default: op

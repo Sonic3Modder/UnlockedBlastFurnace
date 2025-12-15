@@ -1,0 +1,12 @@
+name: CustomBlastFurnace
+version: 1.0.1
+main: io.github.sonic3modder.customblastfurnace.CustomBlastFurnace
+description: Customize what items can be smelted in blast furnaces
+author: Sonic3Modder
+website: https://github.com/Sonic3Modder
+api-version: '1.20.4'
+folia-supported: true
+
+dependencies:
+  server: []
+  bootstrap: []
