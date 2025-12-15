@@ -8,8 +8,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.RecipeChoice;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.Iterator;
-
 public class CustomBlastFurnace extends JavaPlugin {
 
     @Override
@@ -18,6 +16,7 @@ public class CustomBlastFurnace extends JavaPlugin {
         saveDefaultConfig();
         
         getLogger().info("CustomBlastFurnace plugin enabled!");
+        getLogger().info("Compatible with Java 17+ (Minecraft 1.18+)");
         
         // Load custom recipes
         loadCustomRecipes();
